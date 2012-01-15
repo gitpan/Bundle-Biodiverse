@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 #use vars qw($VERSION);
-our $VERSION = '0.15';
+our $VERSION = '0.16';
 
 
 1;
@@ -14,27 +14,29 @@ __END__
 =head1 NAME
 
 Bundle::Biodiverse - Bundle to install Biodiverse dependencies.
-You should install the BiodiverseNoGUI bundle first.
+
 
 =head1 SYNOPSIS
 
   #  on Windows:
-  perl -MCPAN -e 'install Bundle::BiodiverseNoGUI'
   perl -MCPAN -e 'install Bundle::Biodiverse'
   
   #  on most other platforms:
-  sudo perl -MCPAN -e 'install Bundle::BiodiverseNoGUI'
   sudo perl -MCPAN -e 'install Bundle::Biodiverse'
 
 =head1 CONTENTS
 
+Bundle::BiodiverseNoGUI
+
 Geo::ShapeFile
+
 Tree::R
+
 Gtk2::GladeXML
-ExtUtils::Depends
-ExtUtils::PkgConfig
+
 Browser::Open
-LWP::Simple
+
+LWP
 
 
 =head1 DESCRIPTION
